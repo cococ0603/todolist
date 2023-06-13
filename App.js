@@ -38,8 +38,7 @@ function TodoList() {
 
       <ul className="list">
         {todoList.map((item, index) => (
-          <div 
-          className="todo-item"
+          <div className="todo-item"
           key={index}>
             <span
               style={{
